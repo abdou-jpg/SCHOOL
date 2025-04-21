@@ -1,0 +1,40 @@
+body{
+    place-items: center;
+    background-repeat:repeat;
+    background-size: cover;
+    background-attachment:fixed;
+}
+div{
+    place-items: 50% 100%;
+}
+.ABC{
+    color: rgb(255, 0, 0);
+    text-align: center;
+    
+}
+.nav-1{
+    background-color: #000000;
+    padding: 500px;
+    place-items: center;
+    border: 10px;
+    border-color: darkviolet;
+}
+nav ul{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li{
+    margin-left: 20px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 12px;
+    display: block;
+}
+nav ul li a:hover{
+    background-color: #575757;
+    border-radius: 5px;
+}
